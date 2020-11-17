@@ -1,12 +1,12 @@
-let num1 = document.querySelector("#num1");
-let num2 = document.querySelector("#num2");
+let inp1 = document.querySelector("#num1");
+let inp2 = document.querySelector("#num2");
 let button = document.querySelector("#but");
 let arj = document.querySelector("#arj");
 let sel = document.querySelector("#sel");
-let refresh = [num1, num2, sel];
+let refresh = [inp1, inp2, sel];
 button.addEventListener("click", function () {
-  let tiv1 = parseFloat(num1.value);
-  let tiv2 = parseFloat(num2.value);
+  let tiv1 = parseFloat(inp1.value);
+  let tiv2 = parseFloat(inp2.value);
   let sum;
   switch (sel.value) {
     case "+":
